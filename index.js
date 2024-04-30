@@ -19,3 +19,13 @@ const seq= (num) => {
     return num * num;
     }
     console.log (seq (7))
+
+
+// Q4) [🌶️🌶️] Create an arrow function that takes an array of numbers and returns a new array with each number squared.
+
+const numbers = [1, 2, 3, 4, 5];
+
+const squaredNumbers = numbers.map(number => number * number);
+
+console.log(squaredNumbers); 
+
